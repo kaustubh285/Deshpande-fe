@@ -1,0 +1,28 @@
+.member {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.member__info {
+  background-color: rgb(207, 207, 207);
+}
+.member > img {
+  max-height: 200px;
+}
+
+.family {
+  max-height: 400px;
+  width: auto;
+}
+
+.about__poster {
+  background-image: linear-gradient(to bottom right, #877b51, #225254);
+  justify-content: space-between;
+  overflow: hidden;
+  flex-wrap: wrap;
+  display: flex;
+  min-height: 400px;
+  width: 100%;
+}
